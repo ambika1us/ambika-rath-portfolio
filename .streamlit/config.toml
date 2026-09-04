@@ -1,0 +1,27 @@
+[server]
+headless = true
+port = 8501
+enableCORS = false
+enableXsrfProtection = false
+address = "0.0.0.0"
+
+[browser]
+gatherUsageStats = false
+serverAddress = "localhost"
+serverPort = 8501
+
+[theme]
+base = "light"
+
+# Primary brand (AI teal)
+primaryColor = "#00A88F"
+
+# Backgrounds
+backgroundColor = "#F8FAFC"
+secondaryBackgroundColor = "#FFFFFF"
+
+# Text
+textColor = "#1F2933"
+
+# Accent
+font = "sans serif"

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 460" role="img" aria-label="Agent system panel">
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b3b4a"/>
+      <stop offset="100%" stop-color="#0f766e"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#99f6e4" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#5eead4" stop-opacity="0.2"/>
+    </linearGradient>
+  </defs>
+  <rect width="520" height="460" rx="28" fill="url(#panel)"/>
+  <circle cx="430" cy="70" r="90" fill="#14b8a6" opacity="0.12"/>
+  <circle cx="80" cy="400" r="70" fill="#99f6e4" opacity="0.1"/>
+  <text x="36" y="42" font-family="IBM Plex Mono, Menlo, monospace" font-size="11" fill="#99f6e4" letter-spacing="1.8">AGENT GRAPH</text>
+  <text x="36" y="68" font-family="IBM Plex Sans, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#ffffff">Live control plane</text>
+  <text x="36" y="90" font-family="IBM Plex Sans, Helvetica, sans-serif" font-size="12" fill="#ccfbf1">planner · workers · critic · executor</text>
+
+  <rect x="36" y="118" width="448" height="54" rx="12" fill="#062833" opacity="0.55"/>
+  <circle cx="62" cy="145" r="6" fill="#5eead4"/>
+  <text x="80" y="141" font-family="IBM Plex Sans, Helvetica, sans-serif" font-size="12" fill="#ffffff">Orchestrator</text>
+  <text x="80" y="157" font-family="IBM Plex Mono, Menlo, monospace" font-size="10" fill="#99f6e4">routing  ·  retries  ·  traces</text>
+  <text x="430" y="150" font-family="IBM Plex Mono, Menlo, monospace" font-size="10" fill="#5eead4">READY</text>
+
+  <g>
+    <rect x="36" y="192" width="132" height="88" rx="14" fill="#ffffff" opacity="0.08" stroke="#99f6e4" stroke-opacity="0.35"/>
+    <text x="102" y="228" text-anchor="middle" font-family="IBM Plex Sans, Helvetica, sans-serif" font-size="13" font-weight="600" fill="#ffffff">Parser</text>
+    <text x="102" y="248" text-anchor="middle" font-family="IBM Plex Mono, Menlo, monospace" font-size="10" fill="#99f6e4">schema</text>
+  </g>
+  <g>
+    <rect x="194" y="192" width="132" height="88" rx="14" fill="#ffffff" opacity="0.08" stroke="#99f6e4" stroke-opacity="0.35"/>
+    <text x="260" y="228" text-anchor="middle" font-family="IBM Plex Sans, Helvetica, sans-serif" font-size="13" font-weight="600" fill="#ffffff">Research</text>
+    <text x="260" y="248" text-anchor="middle" font-family="IBM Plex Mono, Menlo, monospace" font-size="10" fill="#99f6e4">retrieval</text>
+  </g>
+  <g>
+    <rect x="352" y="192" width="132" height="88" rx="14" fill="#ffffff" opacity="0.08" stroke="#fbbf24" stroke-opacity="0.45"/>
+    <text x="418" y="228" text-anchor="middle" font-family="IBM Plex Sans, Helvetica, sans-serif" font-size="13" font-weight="600" fill="#ffffff">Critic</text>
+    <text x="418" y="248" text-anchor="middle" font-family="IBM Plex Mono, Menlo, monospace" font-size="10" fill="#fde68a">policy</text>
+  </g>
+
+  <rect x="36" y="300" width="448" height="120" rx="16" fill="#ffffff" opacity="0.07"/>
+  <text x="56" y="332" font-family="IBM Plex Sans, Helvetica, sans-serif" font-size="13" font-weight="600" fill="#ffffff">Human gate</text>
+  <text x="56" y="354" font-family="IBM Plex Sans, Helvetica, sans-serif" font-size="12" fill="#ccfbf1">No outbound action without approval.</text>
+  <rect x="56" y="372" width="86" height="26" rx="13" fill="#14b8a6"/>
+  <text x="99" y="389" text-anchor="middle" font-family="IBM Plex Sans, Helvetica, sans-serif" font-size="11" font-weight="600" fill="#042f2e">approve</text>
+  <rect x="152" y="372" width="70" height="26" rx="13" fill="none" stroke="#99f6e4"/>
+  <text x="187" y="389" text-anchor="middle" font-family="IBM Plex Sans, Helvetica, sans-serif" font-size="11" fill="#ccfbf1">edit</text>
+  <rect x="232" y="372" width="70" height="26" rx="13" fill="none" stroke="#99f6e4"/>
+  <text x="267" y="389" text-anchor="middle" font-family="IBM Plex Sans, Helvetica, sans-serif" font-size="11" fill="#ccfbf1">abort</text>
+  <circle cx="452" cy="360" r="18" fill="url(#glow)"/>
+</svg>
