@@ -1,6 +1,6 @@
 # 🚀 Ambika Rath — AI Portfolio
 
-🔗 Live Portfolio: https://your-streamlit-app.streamlit.app  
+🔗 Live Portfolio: https://ambika-rath-portfolio.streamlit.app/  
 
 > 💡 Data Scientist building Agentic AI systems, ML pipelines, and explainable decision systems
 
@@ -28,14 +28,14 @@ A production-style AI system that:
 - Computes decision scores  
 - Explains reasoning  
 
-👉 GitHub Repo: https://github.com/your-username/agentic-ai-job-application-system  
+👉 GitHub Repo: https://github.com/ambika1us/multi-agent-job-apply-desk  
 
 ---
 
 ## 🧪 Live Demo
 
 Try the system here:  
-👉 https://your-streamlit-app.streamlit.app  
+👉 https://applydesk-ai.streamlit.app/  
 
 ---
 
